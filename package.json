@@ -23,7 +23,10 @@
         "jit-grunt": "^0.10.0",
         "testcafe": "^0.23.2",
         "ui5-mockserver": "0.0.8",
-        "ui5-testcafe-selector": "^0.1.6"
+        "ui5-testcafe-selector": "^0.1.6",
+        "cryptiles": ">=4.1.2",
+        "static-eval": ">=2.0.0",
+        "hoek": ">=4.2.1"
     },
     "dependencies": {
         "chart.js": "^2.7.3",
