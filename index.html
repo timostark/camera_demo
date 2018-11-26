@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="webapp/quagga.min.js"></script>
+    <script id="sap-ui-bootstrap" src="https://openui5.hana.ondemand.com/1.54.6/resources/sap-ui-core.js"
+        data-sap-ui-libs="sap.m, sap.ui.table" data-sap-ui-theme="sap_belize_plus" data-sap-ui-compatVersion="edge"
+        data-sap-ui-bindingSyntax="complex" data-sap-ui-resourceroots='{"com.ui5.camera": "webapp/", "com.ui5.testing": "webapp/libs/OPATesting"}'
+        data-sap-ui-frameOptions="trusted">
+        </script>
+    <script>
+        sap.ui.getCore().attachInit(function () {
+            sap.ui.require([
+                "sap/m/Shell",
+                "sap/ui/core/ComponentContainer"
+            ], function (Shell, ComponentContainer, ConfigHandler) {
+                new Shell({
+                    appWidthLimited: true,
+                    app: new ComponentContainer({
+                        id: "com.ui5.camera",
+                        height: "100%",
+                        name: "com.ui5.camera"
+                    })
+                }).placeAt("content");
+            });
+        });
+    </script>
+</head>
+
+<body class="sapUiBody" id="content" role="application">
+</body>
+
+</html>

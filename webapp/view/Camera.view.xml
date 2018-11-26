@@ -1,0 +1,7 @@
+<mvc:View controllerName="com.ui5.camera.controller.Camera"  xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" busy="false" class="sapUiSizeCompact" busyIndicatorDelay="{appView>/delay}" 
+    xmlns="sap.m">
+    <semantic:FullscreenPage showFooter="false" navButtonPress="onNavBack" showNavButton="false" title="test camera" busy="{viewModel>/busy}">
+        <core:HTML content="&lt;div id='test_camera'/&gt;"/>
+    </semantic:FullscreenPage>
+</mvc:View>

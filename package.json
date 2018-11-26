@@ -1,0 +1,36 @@
+{
+    "name": "com.ui5.camera",
+    "description": "BMW PDCA",
+    "version": "1.0.0",
+    "devDependencies": {
+        "codingpolicyjs": "^0.1.7",
+        "grunt": "~0.4.2",
+        "grunt-connect-proxy": "^0.2.0",
+        "grunt-connect-proxy2": "^2.0.0",
+        "grunt-contrib-clean": "^1.0.0",
+        "grunt-contrib-connect": "^1.0.2",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-eslint": "^18.1.0",
+        "grunt-jsdoc": "^2.3.0",
+        "grunt-lineending": "^1.0.0",
+        "grunt-nwabap-ui5uploader": "^0.1.3",
+        "grunt-openui5": "^0.9.0",
+        "grunt-port-pick": "^1.5.3",
+        "grunt-qunit-puppeteer": "1.0.10",
+        "grunt-testcafe": "^0.22.0",
+        "grunt-xml-validator": "^1.1.3",
+        "jit-grunt": "^0.10.0",
+        "testcafe": "^0.23.2",
+        "ui5-mockserver": "0.0.8",
+        "ui5-testcafe-selector": "^0.1.6"
+    },
+    "dependencies": {
+        "chart.js": "^2.7.3",
+        "client-oauth2": "^4.2.1",
+        "foodoc": "0.0.9",
+        "grunt": "^1.0.1",
+        "puppeteer": "^0.13.0",
+        "store": "^2.0.12"
+    }
+}
